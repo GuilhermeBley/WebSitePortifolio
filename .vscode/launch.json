@@ -27,12 +27,14 @@
             },
             "sourceFileMap": {
                 "/Views": "${workspaceFolder}/Views"
-            }
+            },
+            "file": "${workspaceRoot}/index.html"
         },
         {
             "name": ".NET Core Attach",
             "type": "coreclr",
-            "request": "attach"
+            "request": "attach",
+            "file": "${workspaceRoot}/index.html"
         }
     ]
 }
