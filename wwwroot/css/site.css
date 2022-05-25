@@ -58,6 +58,14 @@ html {
   min-height: 100%;
 }
 
+nav{
+    font-size:25px;
+}
+
+nav li {
+    font-size: 20px;
+}
+
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
@@ -75,3 +83,27 @@ footer{
   font-size: 20px;
 }
 
+img{
+    align-content:center;
+    align-items:center;
+}
+
+.color-background {
+    background-color: #0f0f0f;
+}
+
+.color-primary {
+    background-color: #212529;
+    border-color:black;
+}
+
+
+.color-secundary {
+    background-color: #171717;
+    border-color: black;
+}
+
+.image-background-repeat {
+    background-image: url("../images/science-icon-3-repeat.png");
+    background-repeat: repeat;
+}
