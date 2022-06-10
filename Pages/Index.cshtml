@@ -1,9 +1,123 @@
-﻿@page
+﻿@page "/"
 @model IndexModel
 
-<div class="text-center m-2">
-    <img src="~/images/Fundo.png" class="img-fluid" alt="Responsive image" />
+<div class="text-center color-secundary p-md-5">
+    <h1>
+        <img src="~/images/Fundo.png" class="img-fluid" alt="Logo" />
+    </h1>
 </div>
+
+<!-- Resumo informações -->
+
+<section class="probootstrap-section text-center p-3 mt-2 text-light">
+    <div class="container mx-auto">
+        <div class="row">
+            <div class="col color-secundary">
+                <div class="pricing-header mx-auto text-center color-secundary">
+                    <h2 class="text-light p-2">
+                        Sobre
+                    </h2>
+                </div>
+                <div class="service left-icon probootstrap-animate fadeInUp probootstrap-animated">
+                    <div class="icon">
+                    <i class="icon-laptop3"></i>
+                    </div>
+                    <div class="text-justify info-text">
+                    <p> 
+                        Estudante na instituição Fatec Sorocaba, curso Análise e desenvolvimento de sistemas. No momento estou empregado na área da tecnologia da informação 
+                        na empresa Smartec Informações Gerenciais, onde atuo no ramo de pesquisas automatizadas, tendo como principais tarefas o desenvolvimento de crawlers 
+                        para consultas e também o desenvolvimento de API's realizadas através da plataforma ASP NET.
+                    </p>
+                    <p>
+                        Atualmente tenho grande interesse na área de Back-End, porém, mesmo assim, procuro sempre me especializar e entender melhor a parte do desenvolvimento visual
+                        de uma aplicação, já que nos dias atuais, é uma parte extremamente importante para melhor entendimento e facilidade das funcionalidades de um sistema.
+                    </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md color-secundary p-md-5" alt="study">
+                <div class="service left-icon probootstrap-animate fadeInUp probootstrap-animated">
+                    <img src="~/images/Items-resize.png" class="img-fluid"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="probootstrap-section text-center p-3 mt-2 text-light">
+    <div class="container mx-auto">
+        <div class="row">
+            <div class="col-md color-secundary p-md-5" alt="study">
+                <div class="service left-icon probootstrap-animate fadeInUp probootstrap-animated">
+                    <img src="~/images/breaking-bad.png" class="img-fluid"/>
+                </div>
+            </div>
+            <div class="col color-secundary">
+                <div class="pricing-header mx-auto text-center color-secundary">
+                    <h2 class="text-light p-2">
+                        Projeto
+                    </h2>
+                </div>
+                <div class="service left-icon probootstrap-animate fadeInUp probootstrap-animated">
+                    <div class="icon">
+                    <i class="icon-laptop3"></i>
+                    </div>
+                    <div class="text-justify info-text">
+                    <p> 
+                        O projeto tem como objetivo apresentar os conceitos e aprendizados de programação web e design's desenvolvidos em sala de aula, e para isso,
+                        foi atribuído um trabalho de desenvolvimento de um web site onde deveriam ser aplicados tais conceitos. Neste trabalho devia ser escolhido um tema geral do site,
+                        e neste caso, foi escolhido a tão famigerada série Breaking Bad, que é conhecida e adorada muldialmente.
+                    </p>
+                    <p>
+                        O site está usando conceitos básicos de Bootstrap, sendo desenvolvido na plataforma ASP NET, mas neste caso, há uma maior ênfase no desenvolvimento
+                        da parte visual. A sua hospedagem está sendo efetuada através do App Service do Azure.
+                    </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="probootstrap-section text-center p-3 mt-2 text-light">
+    <div class="container mx-auto">
+        <div class="row">
+            <div class="col color-secundary">
+                <div class="pricing-header mx-auto text-center color-secundary">
+                    <h2 class="text-light p-2">
+                        Conhecimentos
+                    </h2>
+                </div>
+                <div class="service left-icon probootstrap-animate fadeInUp probootstrap-animated">
+                    <div class="icon">
+                    <i class="icon-laptop3"></i>
+                    </div>
+                    <div class="text-justify info-text">
+                    <p> 
+                        Possuo grande interesse no desenvolvimento de linguagens orientadas à objetos como Ruby ou java, mas também ja realizei codificações utilizando o C. 
+                        A minha atual linguagem de programação em que possuo maior afinidade seria o C#, que é fortemente tipada, que foi desenvolvido pela Microsoft, um dos motivos da
+                        utilização e interesse deste linguagem seria a facilidade de seu desenvolvimento, onde seus serviços podem ser interligados facilmente em diversos outros, como por exemplo Azure Functions,
+                        App services, e dentre outros.
+                    </p>
+                    <p>
+                        Em questão de ferramentas de gerenciamento de software estou familiarizado com o Azure DevOps, onde é feito o Pipelines, Git, Boards, Testes e documentação 
+                        em uma mesma ferramenta.
+                    </p>
+                    <p>
+                        Estou me desenvolvendo melhor na área de aplicações web, buscando entender e aplicar melhor as ferramentas como Entity Framework, Dapper, Autententicação e autorização
+                        em um servidor... Esses tópicos são extremamente importantes nos dias atuais, onde o desenvolvimento de aplicações web vem só crescendo.
+                    </p>
+                    <p>
+                        A fim de me apresentar melhor, no próximo bloco estão alguns projetos realizados.
+                    </p>
+                    </div>
+                </div>
+                <a href="/Projetos" class="btn btn-dark border-light border-1 px-md-5 py-md-2 m-5">Visualizar projetos  <i class="bi bi-arrow-bar-right"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
 @{
     ViewData["Title"] = "Home";
 }

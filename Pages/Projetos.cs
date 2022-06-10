@@ -3,11 +3,11 @@ using Microsoft.Extensions.Logging;
 
 namespace WebSitePortifolio.Pages
 {
-    public class CurriculumModel : PageModel
+    public class ProjetosModel : PageModel
     {
-        private readonly ILogger<CurriculumModel> _logger;
+        private readonly ILogger<ProjetosModel> _logger;
 
-        public CurriculumModel(ILogger<CurriculumModel> logger)
+        public ProjetosModel(ILogger<ProjetosModel> logger)
         {
             _logger = logger;
         }

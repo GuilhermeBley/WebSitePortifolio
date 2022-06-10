@@ -107,3 +107,16 @@ img{
     background-image: url("../images/science-icon-3-repeat.png");
     background-repeat: repeat;
 }
+
+.image-dynamic {
+    width: 100%;
+    max-height: 30em;
+    object-fit: fill;
+    margin: auto;
+    order: 0;
+}
+
+.info-text {
+    font-size: 18px;
+    line-height: 1.5;
+}
